@@ -1,0 +1,44 @@
+.company-brand {
+  width: 4rem;
+  height: 4rem;
+}
+.hero-img {
+  background-image: url("https://images.unsplash.com/photo-1617357283170-d924176b7f92?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40rem;
+  width: 100%;
+  padding: 0;
+}
+.hero-text {
+  width: 100%;
+  height: 40em;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+#hero-text {
+  color: whitesmoke;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 48px;
+}
+.hero-action-container {
+  width: 100%;
+  height: 40em;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-action {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
