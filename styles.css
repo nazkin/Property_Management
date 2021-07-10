@@ -70,8 +70,9 @@ a:hover {
 .title-div {
   padding: 3rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   min-height: 10rem;
   margin-bottom: 3rem;
 }
@@ -95,7 +96,7 @@ a:hover {
   font-weight: 400;
   font-size: 3.5rem;
   text-transform: uppercase;
-  color: #cdcdcd;
+  color: whitesmoke;
 }
 .process-col {
   width: 80%;
@@ -113,13 +114,31 @@ a:hover {
 
   padding: 3rem;
 }
-.img-num {
-  width: 50px;
-  height: 70px;
-  object-fit: contain;
-  object-position: center;
+.vision-section {
+  background-image: url("https://images.unsplash.com/photo-1574060603747-421196bce3f4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1867&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+.dark-lens {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
 }
 .paragraph {
   text-align: center;
   width: 100%;
+  font-family: "Cardo";
+  font-size: 24px;
+}
+.hr-line {
+  background-color: whitesmoke;
+}
+.footer {
+  height: 6rem;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 1rem;
 }
