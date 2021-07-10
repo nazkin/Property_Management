@@ -1,18 +1,46 @@
+body {
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 16px;
+}
+h1,
+h2,
+h3 {
+  font-family: "Montserrat";
+}
+a {
+  color: white;
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 24px;
+  border-bottom: 1px solid transparent;
+}
+a:hover {
+  color: silver;
+  border-bottom: 1px solid silver;
+}
 .company-brand {
   width: 4rem;
   height: 4rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+}
+.navigation {
+  background-color: rgba(0, 0, 0, 0.93);
+  width: 100%;
 }
 .hero-img {
-  background-image: url("https://images.unsplash.com/photo-1617357283170-d924176b7f92?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
+  background-image: url("https://images.unsplash.com/photo-1477146901578-40f6955116e1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
   background-position: center;
   background-repeat: no-repeat;
-  height: 40rem;
   width: 100%;
   padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
 .hero-text {
   width: 100%;
-  height: 40em;
+  height: 50rem;
   background-color: rgba(0, 0, 0, 0.4);
   display: flex;
   flex-direction: row;
@@ -28,17 +56,70 @@
 }
 .hero-action-container {
   width: 100%;
-  height: 40em;
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 3rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 0;
 }
 .hero-action {
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+.title-div {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  min-height: 10rem;
+  margin-bottom: 3rem;
+}
+.offers-title {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
+.service-container {
+  height: 18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.process-title {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  color: #cdcdcd;
+}
+.process-col {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(90, 22, 20);
+  background: linear-gradient(
+    6deg,
+    rgba(90, 22, 20, 0.1) 8%,
+    rgba(9, 9, 121, 0.1) 48%,
+    rgba(99, 23, 9, 0.51) 91%
+  );
+
+  padding: 3rem;
+}
+.img-num {
+  width: 50px;
+  height: 70px;
+  object-fit: contain;
+  object-position: center;
+}
+.paragraph {
+  text-align: center;
+  width: 100%;
 }
