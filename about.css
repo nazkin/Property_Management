@@ -1,0 +1,50 @@
+.about-hero-section {
+  background-image: url("assets/toronto_skyline.jpg");
+  background-position: 45% 30%;
+  background-repeat: no-repeat;
+  padding: 0px;
+}
+.about-hero-container {
+  width: 100%;
+  min-height: 50rem;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.member-img {
+  width: 50%;
+}
+.member-img img {
+  border: 3px solid white;
+}
+.member-name {
+  font-size: 38px;
+  font-weight: 500;
+  color: #f1f1f1;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.desc-image {
+  box-shadow: 2px 2px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.subtitle {
+  color: black;
+  font-size: 22px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 2px 2px 1px 3px rgba(255, 255, 255, 1);
+}
+.about-content-section {
+  background-image: url("assets/back.jpg");
+  background-position: 45% 90%;
+  background-repeat: no-repeat;
+}

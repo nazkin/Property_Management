@@ -1,0 +1,60 @@
+body {
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 16px;
+}
+h1,
+h2,
+h3 {
+  font-family: "Montserrat";
+}
+
+a {
+  color: white;
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 24px;
+  border-bottom: 1px solid transparent;
+}
+a:hover {
+  color: silver;
+  border-bottom: 1px solid silver;
+}
+.company-brand {
+  width: 4rem;
+  height: 4rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  margin-left: 1rem;
+}
+.navigation {
+  background-color: rgba(0, 0, 0, 0.93);
+  width: 100%;
+}
+.contact-info-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+  color: goldenrod;
+}
+.page-title {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.column-all-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.row-all-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
