@@ -20,78 +20,107 @@
     <link rel="stylesheet" type="text/css" href="about.css" />
   </head>
   <body>
-    <nav class="navigation">
-      <div class="columns">
-        <div class="column is-one-third is-flex is-align-items-center">
-          <img src="assets/brnd.png" class="company-brand" />
-        </div>
-        <div
-          class="
-            column
-            is-flex is-justify-content-space-around is-align-items-center
-          "
+    <nav class="navbar is-black" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="nav-links"
         >
-          <a href="index.html">Home</a>
-          <a href="services.html">Our Work</a>
-          <a href="about.html">About</a>
-          <a href="contact.html">Contact</a>
-        </div>
-        <div class="column is-one-third">
-          <span style="font-size: 1.5em; color: white">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="nav-links" class="navbar-menu">
+        <div class="navbar-start">
+          <a href="index.html" class="navbar-item"> Home </a>
+          <a href="services.html" class="navbar-item"> Services </a>
+          <a href="investments.html" class="navbar-item"> Investments </a>
+          <a href="about.html" class="navbar-item"> About </a>
+          <a href="contact.html" class="navbar-item"> Contact </a>
+          <span
+            class="nav-social-icon"
+            style="font-size: 1.5em; color: slategrey"
+          >
             <i class="fa fa-instagram" aria-hidden="true"></i>
           </span>
-          <span style="font-size: 1.5em; color: white">
+          <span
+            class="nav-social-icon"
+            style="font-size: 1.5em; color: slategrey"
+          >
             <i class="fa fa-facebook-square" aria-hidden="true"></i>
           </span>
+        </div>
 
-          <div class="is-pulled-right contact-info-div">
-            <p class="subtitle my-2 mx-3">(647) - 332 - 3223</p>
-            <p class="subtitle my-2 mx-3">myemail@email.com</p>
+        <div class="navbar-end">
+          <div class="contact-info-div">
+            <span class="row-centered-space-between">
+              <i
+                class="fa fa-mobile mx-3"
+                aria-hidden="true"
+                style="font-size: 1.5em; color: gold"
+              ></i>
+              <p class="nav-contact is-italic">(647) - 332 - 3223</p>
+            </span>
+            <span class="row-centered-space-between">
+              <i
+                class="fa fa-envelope mx-3"
+                aria-hidden="true"
+                style="font-size: 1.5em; color: gold"
+              ></i>
+              <p class="nav-contact is-italic">myemail@email.com</p>
+            </span>
           </div>
         </div>
       </div>
     </nav>
     <section class="section about-hero-section">
-      <div class="about-hero-container p-4">
+      <div class="column-all-center about-hero-container p-4">
+        <figure class="image logo-figure">
+          <img src="./assets/logo.png" height="8rem" width="auto" />
+        </figure>
         <h1 class="page-title my-6 has-text-light">Meet the Team</h1>
-        <div class="columns mt-6 team">
-          <div class="column column-all-center">
-            <figure class="image member-img">
-              <img
-                class="is-rounded"
-                width="250px"
-                height="250px"
-                src="assets//face.jpg"
-              />
-            </figure>
-            <h2 class="member-name">Peter</h2>
-          </div>
-          <div class="column column-all-center">
-            <figure class="image member-img">
-              <img
-                class="is-rounded"
-                src="assets//face.jpg"
-                width="250px"
-                height="250px"
-              />
-            </figure>
-            <h2 class="member-name">Amber</h2>
-          </div>
-          <div class="column column-all-center">
-            <figure class="image member-img">
-              <img
-                class="is-rounded"
-                width="250px"
-                height="250px"
-                src="assets//face.jpg"
-              />
-            </figure>
-            <h2 class="member-name">Nolan</h2>
-          </div>
-        </div>
       </div>
     </section>
     <section class="section about-content-section">
+      <div class="columns mt-6 team">
+        <div class="column column-all-center">
+          <figure class="image member-img">
+            <img
+              class="is-rounded"
+              width="250px"
+              height="250px"
+              src="assets//face.jpg"
+            />
+          </figure>
+          <h2 class="member-name">Peter</h2>
+        </div>
+        <div class="column column-all-center">
+          <figure class="image member-img">
+            <img
+              class="is-rounded"
+              src="assets//face.jpg"
+              width="250px"
+              height="250px"
+            />
+          </figure>
+          <h2 class="member-name">Amber</h2>
+        </div>
+        <div class="column column-all-center">
+          <figure class="image member-img">
+            <img
+              class="is-rounded"
+              width="250px"
+              height="250px"
+              src="assets//face.jpg"
+            />
+          </figure>
+          <h2 class="member-name">Ethan</h2>
+        </div>
+      </div>
       <div class="container">
         <h1 class="page-title my-6">Working with the Oakens Gate team</h1>
         <div class="columns my-6">
@@ -149,8 +178,11 @@
           </div>
         </div>
       </div>
-      <div class="column-all-center p-3 has-background-light">
-        <button class="button is-large is-black my-6">Join The Family</button>
+      <div class="column-all-center p-3 about-cta">
+        <h1 class="title has-text-light">
+          Contact us today and join the family
+        </h1>
+        <button class="button is-large is-white my-1">Contact</button>
       </div>
     </section>
     <footer class="has-background-black my-0">

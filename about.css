@@ -8,10 +8,6 @@
   width: 100%;
   min-height: 50rem;
   background: rgba(0, 0, 0, 0.7);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
 }
 .member-img {
   width: 50%;
@@ -22,7 +18,7 @@
 .member-name {
   font-size: 38px;
   font-weight: 500;
-  color: #f1f1f1;
+  color: slategrey;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
@@ -41,10 +37,22 @@
   text-align: center;
   height: 100%;
   background: rgba(255, 255, 255, 0.85);
-  box-shadow: 2px 2px 1px 3px rgba(255, 255, 255, 1);
 }
 .about-content-section {
   background-image: url("assets/back.jpg");
   background-position: 45% 90%;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-cta {
+  width: 70%;
+  background: rgb(218, 165, 32);
+  background: linear-gradient(
+    6deg,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(23, 23, 23, 0) 82%,
+    rgba(99, 68, 9, 0.9) 84%
+  );
 }
