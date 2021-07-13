@@ -11,16 +11,17 @@
 }
 .member-img {
   width: 50%;
+  max-width: 25rem;
 }
 .member-img img {
-  border: 3px solid white;
+  box-shadow: 3px 2px 2px 1px rgba(0, 0, 0, 0.1);
 }
 .member-name {
   font-size: 38px;
   font-weight: 500;
   color: slategrey;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .desc-image {
   box-shadow: 2px 2px 1px 3px rgba(0, 0, 0, 0.1);
@@ -55,4 +56,10 @@
     rgba(23, 23, 23, 0) 82%,
     rgba(99, 68, 9, 0.9) 84%
   );
+}
+
+.team {
+  min-height: 30rem;
+  width: 100%;
+  margin: 0px;
 }
