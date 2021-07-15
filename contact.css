@@ -1,0 +1,27 @@
+.contact-hero {
+  background-image: url("assets/tdotlake.jpg");
+  background-position: 45% 30%;
+  background-repeat: no-repeat;
+  padding: 0px;
+}
+.contact-hero-cols {
+  width: 100%;
+  min-height: 50rem;
+  background: rgba(0, 0, 0, 0.7);
+}
+.contact-form {
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px 0.5px rgba(0, 0, 0, 0.1);
+}
+.label {
+  font-family: "Cardo";
+  font-size: 22px;
+  font-weight: 600;
+  padding: 3px;
+  color: tomato;
+  max-width: 40%;
+  border-radius: 12px;
+}
