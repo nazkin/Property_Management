@@ -10,18 +10,42 @@
   background: rgba(0, 0, 0, 0.7);
 }
 .contact-form {
-  border-top: 4px solid black;
-  border-bottom: 4px solid black;
+  border-top: 4px solid slategray;
+  border-bottom: 4px solid slategray;
 
   border-radius: 15px;
-  box-shadow: 1px 1px 1px 0.5px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.4);
 }
 .label {
   font-family: "Cardo";
   font-size: 22px;
   font-weight: 600;
   padding: 3px;
-  color: tomato;
+  color: rgb(16, 22, 24);
   max-width: 40%;
   border-radius: 12px;
+}
+.textarea {
+  height: 16em;
+}
+.contact-content {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 30%,
+    rgba(0, 0, 0, 1) 60%
+  );
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 2px 0px 6px 0px rgba(0, 0, 0, 0.1);
+}
+.content-title {
+  color: rgb(19, 18, 18);
+  font-size: 40px;
+  font-weight: 300;
+}
+.follow-us-title {
+  color: goldenrod;
+  font-size: 40px;
+  font-weight: 300;
 }
