@@ -1,0 +1,11 @@
+.services-hero {
+  background-image: url("assets/services.jpg");
+  background-position: 45% 30%;
+  background-repeat: no-repeat;
+  padding: 0px;
+}
+.services-hero-cols {
+  width: 100%;
+  min-height: 50rem;
+  background: rgba(0, 0, 0, 0.7);
+}

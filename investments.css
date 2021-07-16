@@ -1,0 +1,11 @@
+.investments-hero {
+  background-image: url("https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1866&q=80");
+  background-position: 45% 30%;
+  background-repeat: no-repeat;
+  padding: 0px;
+}
+.investments-hero-cols {
+  width: 100%;
+  min-height: 50rem;
+  background: rgba(0, 0, 0, 0.7);
+}
