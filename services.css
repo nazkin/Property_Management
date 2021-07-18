@@ -10,13 +10,20 @@
   background: rgba(0, 0, 0, 0.7);
 }
 .content {
-  background-color: slategray;
+  background-color: whitesmoke;
   color: white;
   padding: 20px;
 }
 .subtitle {
-  color: white;
+  color: black;
 }
 .serv-name {
-  color: #cacaca;
+  color: slategrey;
+}
+.summary {
+  background-color: white;
+  color: slategray;
+  font-weight: 300;
+  text-align: center;
+  padding: 20;
 }
