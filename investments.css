@@ -6,6 +6,12 @@
 }
 .investments-hero-cols {
   width: 100%;
-  min-height: 50rem;
+  min-height: 20rem;
   background: rgba(0, 0, 0, 0.7);
+}
+.summary {
+  background-color: slategray;
+  color: white;
+  padding: 10px;
+  text-align: center;
 }

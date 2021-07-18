@@ -1,12 +1,12 @@
 .about-hero-section {
   background-image: url("assets/toronto_skyline.jpg");
-  background-position: 45% 30%;
+  background-position: 0% 50%;
   background-repeat: no-repeat;
   padding: 0px;
 }
 .about-hero-container {
   width: 100%;
-  min-height: 50rem;
+  min-height: 20rem;
   background: rgba(0, 0, 0, 0.7);
 }
 .member-img {

@@ -20,6 +20,9 @@ a:hover {
   color: silver;
   border-bottom: 1px solid silver;
 }
+.button {
+  border-radius: 0px;
+}
 .company-brand {
   width: 4rem;
   height: 4rem;

@@ -6,6 +6,17 @@
 }
 .services-hero-cols {
   width: 100%;
-  min-height: 50rem;
+  min-height: 20rem;
   background: rgba(0, 0, 0, 0.7);
+}
+.content {
+  background-color: slategray;
+  color: white;
+  padding: 20px;
+}
+.subtitle {
+  color: white;
+}
+.serv-name {
+  color: #cacaca;
 }
