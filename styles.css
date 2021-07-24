@@ -23,6 +23,15 @@ a:hover {
 .button {
   border-radius: 0px;
 }
+.card {
+  border-radius: 0px;
+  border: 1px solid transparent;
+}
+.card-image {
+  border-radius: 0px;
+  border: 1px solid transparent;
+}
+
 .company-brand {
   width: 4rem;
   height: 4rem;
@@ -41,6 +50,7 @@ a:hover {
   font-size: 3.5rem;
   text-transform: uppercase;
   text-align: center;
+  width: 100%;
 }
 .column-all-center {
   display: flex;
