@@ -110,7 +110,7 @@ a:hover {
 }
 
 .call-to-action {
-  border: 2px solid steelblue;
+  border: 2px solid rgb(68, 102, 117);
   height: 80px;
   width: 400px;
   border-radius: 0px;
@@ -119,7 +119,7 @@ a:hover {
   margin: 25px;
   font-size: 28px;
   text-transform: uppercase;
-  background: rgb(63, 113, 175);
+  background: rgb(27, 75, 97);
   padding: 0;
 }
 .call-to-action::after {
@@ -143,6 +143,12 @@ a:hover {
 .layover {
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgb(15, 21, 24);
+  background: linear-gradient(
+    188deg,
+    rgba(15, 21, 24, 1) 23%,
+    rgba(149, 121, 24, 0.9359944661458334) 25%,
+    rgba(74, 65, 51, 0) 27%
+  );
   margin: 0;
 }
