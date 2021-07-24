@@ -22,6 +22,16 @@ a:hover {
 }
 .button {
   border-radius: 0px;
+  opacity: 0.87;
+  font-family: "Cardo";
+  text-transform: uppercase;
+}
+.button:hover {
+  opacity: 1;
+}
+.is-outlined {
+  border-width: 2px;
+  border-style: solid;
 }
 
 .company-brand {
