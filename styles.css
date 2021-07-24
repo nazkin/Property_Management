@@ -23,14 +23,6 @@ a:hover {
 .button {
   border-radius: 0px;
 }
-.card {
-  border-radius: 0px;
-  border: 1px solid transparent;
-}
-.card-image {
-  border-radius: 0px;
-  border: 1px solid transparent;
-}
 
 .company-brand {
   width: 4rem;
@@ -115,4 +107,42 @@ a:hover {
   width: 25rem;
   margin-bottom: 3rem;
   box-shadow: 2px 1px 15px 1px silver;
+}
+
+.call-to-action {
+  border: 2px solid steelblue;
+  height: 80px;
+  width: 400px;
+  border-radius: 0px;
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  font-size: 28px;
+  text-transform: uppercase;
+  background: rgb(63, 113, 175);
+  padding: 0;
+}
+.call-to-action::after {
+  content: "Obtain Quote";
+  position: absolute;
+  top: 31%;
+  left: 40%;
+  transform: translate(-28%);
+  color: #fffbe7;
+  transition: all 0.5s linear;
+}
+.call-to-action:hover {
+  box-shadow: 1px 1px 4px 1px rgba(13, 45, 71, 0.4);
+}
+
+.call-to-action:hover::after {
+  content: "Obtain Quote";
+  text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 20px #82bedc, 0 0 30px #82bedc,
+    0 0 40px #82bedc, 0 0 50px #82bedc, 0 0 60px #82bedc;
+}
+.layover {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  margin: 0;
 }
