@@ -137,7 +137,7 @@ a:hover {
   position: absolute;
   top: 31%;
   left: 40%;
-  transform: translate(-28%);
+  transform: translate(-32%);
   color: #fffbe7;
   transition: all 0.5s linear;
 }
