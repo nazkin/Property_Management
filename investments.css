@@ -11,17 +11,11 @@
   background: rgba(0, 0, 0, 0.7);
 }
 .cards-section {
-  background: rgb(74, 65, 51);
-  background: linear-gradient(
-    174deg,
-    rgba(74, 65, 51, 0) 51%,
-    rgba(92, 112, 128, 0.9359944661458334) 52%,
-    rgba(15, 21, 24, 1) 65%
-  );
+  background: #fff;
 }
 .card {
   border-radius: 0%;
-  border-bottom: 6px solid goldenrod;
+  border-bottom: 6px solid #2f414f;
   max-height: 38rem;
 }
 .card-image {
@@ -56,7 +50,7 @@
 }
 .process-title {
   font-size: 4rem;
-  color: rgb(61, 79, 95);
+  color: rgb(241, 241, 241);
   text-transform: uppercase;
   text-align: center;
 }
@@ -135,11 +129,20 @@
 }
 
 .ctoa {
-  background-image: url("./assets/network.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #fff;
 
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.investments-text-section {
+  background: #2f414f;
+}
+.investments-text {
+  color: #fff;
+  padding: 10rem;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  font-weight: 300;
+  text-align: center;
 }

@@ -1,6 +1,6 @@
 .hero-img {
   background-image: url("https://images.unsplash.com/photo-1477146901578-40f6955116e1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
-  background-position: center;
+  background-position: 1% 1%;
   background-repeat: no-repeat;
   width: 100%;
   display: flex;
@@ -78,10 +78,12 @@
   background-image: url("https://images.unsplash.com/photo-1574060603747-421196bce3f4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1867&q=80");
   background-position: center;
   background-repeat: no-repeat;
-  padding: 0;
+  padding: 0px;
 }
 .dark-lens {
   width: 100%;
+  padding: 5rem;
+
   background: rgba(0, 0, 0, 0.6);
 }
 .paragraph {
@@ -144,17 +146,11 @@
 
 .home-cta {
   display: flex;
-  flex-direction: column;
-  min-height: 24rem;
-  background: rgb(74, 65, 51);
-  background: linear-gradient(
-    15deg,
-    rgba(201, 201, 201, 0.836) 50%,
-    rgba(15, 21, 24, 1) 51%
-  );
+  flex-direction: row;
+  min-height: 40rem;
+  background-color: black;
 }
 .investments-div {
-  align-self: flex-end;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -162,7 +158,6 @@
   width: 50%;
 }
 .services-div {
-  align-self: flex-start;
   display: flex;
   flex-direction: column;
   justify-content: center;

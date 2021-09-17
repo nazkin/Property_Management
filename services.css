@@ -17,19 +17,17 @@
 }
 .serv-content-div {
   background: rgb(15, 21, 24);
-  background: linear-gradient(
-    7deg,
-    rgba(15, 21, 24, 1) 61%,
-    rgba(74, 65, 51, 0) 63%
-  );
+  background: linear-gradient(0deg, rgba(15, 21, 24, 1) 61%, #2f414f 100%);
 }
 .serv-name {
-  color: slategrey;
+  color: #2f414f;
 }
 .summary {
   background-color: transparent !important;
-  color: lightsteelblue;
-  font-weight: 300;
+  color: white;
+  font-weight: 400;
   text-align: center;
-  padding: 20;
+  padding: 20px;
+  line-height: 2rem;
+  font-size: 1.65rem !important;
 }
