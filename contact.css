@@ -10,15 +10,15 @@
   background: rgba(0, 0, 0, 0.7);
 }
 .contact-form {
-  border-top: 4px solid slategray;
-  border-bottom: 4px solid slategray;
+  border-top: 4px solid #2f414f;
+  border-bottom: 4px solid #2f414f;
 
   box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.4);
 }
 .label {
-  font-family: "Cardo";
+  font-family: "Monserrat";
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 300;
   padding: 3px;
   color: rgb(16, 22, 24);
   max-width: 40%;
@@ -37,7 +37,7 @@
   box-shadow: 2px 0px 6px 0px rgba(0, 0, 0, 0.1);
 }
 .content-title {
-  color: slategray;
+  color: #2f414f;
   font-size: 40px;
   font-weight: 300;
 }
@@ -45,4 +45,8 @@
   color: goldenrod;
   font-size: 40px;
   font-weight: 300;
+}
+.is-submit {
+  border-radius: 4px !important;
+  margin: auto;
 }
